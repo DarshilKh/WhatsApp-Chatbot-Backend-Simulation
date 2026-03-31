@@ -97,15 +97,6 @@ mvn test
 
 5 tests covering: Hi, Bye, unknown input, case insensitivity, and empty message.
 
----
-
-## Deployment on Render (Bonus)
-
-1. Push this repo to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect your GitHub repo
-4. Set environment to **Docker** — Render auto-detects the `Dockerfile`
-5. Deploy — Render injects `PORT` automatically via `server.port=${PORT:8080}`
 
 ---
 
